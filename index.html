@@ -23,6 +23,15 @@
         min-height: 50px;
         padding: 20px;
         text-shadow: 1px 1px 0 #fff;
+        transition: 0.5s;
+      }
+      #dropzone:hover {
+        background-color: rgb(248, 255, 248);
+        border: solid 3px rgb(25, 219, 25);
+        color: rgb(82, 197, 82);
+        min-height: 50px;
+        padding: 20px;
+        text-shadow: 1px 1px 0 #fff;
       }
       #items:empty::before {
         color: #ccc;
@@ -85,13 +94,13 @@
     <input
       type="text"
       id="baseUrl"
-      placeholder="baseUrl"
+      placeholder="base Url Here, the first part of the url"
       style="border: 2px solid orange; color: orange"
     />
     <input
       type="text"
       id="optionalUrl"
-      placeholder="optionalUrl"
+      placeholder="optional Url Here, the last part of the URL"
       style="border: 2px solid purple; color: purple"
     />
     <h1>2. Drag the files over</h1>
